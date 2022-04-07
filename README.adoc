@@ -1,13 +1,27 @@
-= gradle 模板项目
-xiayx <xiayouxue@hotmail.com>
+= 可运行 Jar 包
+peace <xiayouxue@hotmail.com>
 v1.0, 2019-08-23: SNAPSHOT
 :doctype: docbook
 :toc: left
 :numbered:
-:imagesdir: docs/assets/images
-:sourcedir: src/main/java
-:resourcesdir: src/main/resources
-:testsourcedir: src/test/java
 :source-highlighter: highlightjs
 
-详情参考 https://peacetrue.cn/summarize/peacetrue-template-gradle/index.html[安宁的博客^]。
+
+== 版本
+
+:!numbered:
+
+=== 1.0.0
+
+执行并且阻塞，用于观察内存使用情况。
+
+[source%nowrap,shell]
+----
+java -jar runnable-jar-1.0.0-SNAPSHOT-all.jar 100 //<1>
+----
+
+<1> 100 是睡眠的秒数
+
+
+
+
