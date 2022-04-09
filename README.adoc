@@ -17,10 +17,11 @@ v1.0, 2019-08-23: SNAPSHOT
 
 [source%nowrap,shell]
 ----
-java -jar runnable-jar-1.0.0-SNAPSHOT-all.jar 100 //<1>
+./gradlew shadowJar
+cd build/libs
+# 100 是睡眠的秒数
+java -jar runnable-jar-1.0.0-SNAPSHOT-all.jar 100
 ----
-
-<1> 100 是睡眠的秒数
 
 
 

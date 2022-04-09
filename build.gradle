@@ -6,6 +6,10 @@ group "com.github.peacetrue"
 version "1.0.0-SNAPSHOT"
 description "可运行的 jar 包"
 
+ext {
+    publishDisabled = true
+}
+
 apply plugin: "java"
 tasks.jar {
     manifest.attributes["Main-Class"] = "com.github.peacetrue.runnable_jar.Main"
