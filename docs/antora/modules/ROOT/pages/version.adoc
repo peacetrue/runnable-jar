@@ -15,7 +15,7 @@
 [root@10 runnable-jar]# java -jar build/libs/runnable-jar-1.0.0-SNAPSHOT-all.jar
 ----
 
-== 1.0.1
+== 1.1.0
 
 使用常规方法，分析 JVM 内存。
 
