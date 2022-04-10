@@ -1,0 +1,6 @@
+name: peacetrue-result
+title: 响应结果组件
+version: master
+start_page: ROOT:index.adoc
+nav:
+  - modules/ROOT/nav.adoc

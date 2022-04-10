@@ -1,28 +1,9 @@
 = 可运行 Jar 包
 peace <xiayouxue@hotmail.com>
-v1.0, 2019-08-23: SNAPSHOT
+v1.0, 2022-04-10: SNAPSHOT
 :doctype: docbook
 :toc: left
 :numbered:
 :source-highlighter: highlightjs
 
-
-== 版本
-
-:!numbered:
-
-=== 1.0.0
-
-执行并且阻塞，用于观察内存使用情况。
-
-[source%nowrap,shell]
-----
-./gradlew shadowJar
-cd build/libs
-# 100 是睡眠的秒数
-java -jar runnable-jar-1.0.0-SNAPSHOT-all.jar 100
-----
-
-
-
-
+详情参考 https://peacetrue.cn/summarize/runnable-jar/index.html[安宁的博客^]。
