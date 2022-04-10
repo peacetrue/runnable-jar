@@ -1,5 +1,5 @@
-name: peacetrue-result
-title: 响应结果组件
+name: runnable-jar
+title: 可运行 jar 包
 version: master
 start_page: ROOT:index.adoc
 nav:
